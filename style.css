@@ -68,6 +68,7 @@ div a {
     background-repeat: no-repeat;
 }
 
+
 .sec-img {
     width: 50%;
     padding-left: 180px;
@@ -78,7 +79,7 @@ div a {
     width: 50%;
     margin-top: 100px;
     padding-left: 120px;
-
+    
 }
 
 .story {
@@ -97,6 +98,7 @@ div a {
     text-align: center;
     margin-top: 100px;
     font-weight: 500;
+    margin-bottom: 200px;
 }
 
 #p-center {
@@ -142,8 +144,34 @@ div a {
 } 
 /* Discount Section */
 
-section .discount {
-    background-image: url(images/discount.jpg);
+.discount-section {
+    margin-top: 150px;
+    background-image: url(images/discount.png);
+    background-repeat: no-repeat;
+}
+
+.notice {
+    padding: 20px 30px;
+    margin-bottom: 50px;
+}
+
+#o-color {
+    color: red;
+    text-transform: uppercase;
+}
+
+.discount-section a {
+    margin-bottom: 80px;
+    margin-left: 20px;
+}
+
+#g-color {
+    color: green;
+}
+
+#term-con {
+    text-transform: uppercase;
+    margin-left: 20px;
 }
 
 /* Footer Part */
