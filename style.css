@@ -6,7 +6,7 @@ body {
     letter-spacing: 1px;
 }
 
-section {
+.flex-section {
     display: flex;
     width: 100%;
 }
@@ -37,9 +37,9 @@ div h1 {
 }
 
 h2 {
-    font-size: 40px;
-    color: #686161;
-    font-weight: 600;
+        font-size: 40px;
+        color: #686161;
+        font-weight: 600;
 }
 
 .word-color {
@@ -90,3 +90,51 @@ div a {
     font-size: 16px;
     margin-bottom: 3em;
 }
+
+#heading-center {
+    text-align: center;
+    margin-top: 100px;
+    font-weight: 500;
+}
+
+#p-center {
+    margin-left: 28%;
+    margin-right: 22%;
+    margin-bottom: 3em;
+    letter-spacing: 1px;
+    font-weight: 400;
+    color: rgb(90, 89, 89);
+}
+
+.card{
+    width: 33%;  
+    margin: 0 35px;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22)
+}
+
+.card img {
+    height: 50%;
+    width: 96%;
+    padding-left: 7px;
+    padding-top: 10px;
+}
+
+.card h2 {
+    color: rgb(47, 44, 44);
+    font-size: 30px;
+    font-weight: bolder;
+    padding-top: 20px;
+    padding-left: 25px;
+}
+
+.card p {
+    padding-left: 25px;
+    letter-spacing: normal;
+    line-height: 1.3em;
+    width: 82%;
+    text-align: justify;
+} 
