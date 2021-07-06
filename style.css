@@ -140,6 +140,11 @@ div a {
     width: 82%;
     text-align: justify;
 } 
+/* Discount Section */
+
+section .discount {
+    background-image: url(images/discount.jpg);
+}
 
 /* Footer Part */
 
